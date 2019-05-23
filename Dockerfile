@@ -12,7 +12,7 @@ RUN apk update && apk add --no-cache git ca-certificates && update-ca-certificat
 RUN adduser -D -g '' appuser
 
 WORKDIR $GOPATH/src/PasswordUsage
-COPY . .
+COPY ./src .
 
 RUN go get -d -v
 
