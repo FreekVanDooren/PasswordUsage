@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  puc:
+    build: .
+    container_name: "password-checker"
+    image: "puc/password_usage_checker:0.1"
+    stdin_open: true
+    tty: true
+    ports:
+      - 6544:6543
+    volumes:
+      - ./logs:/logs

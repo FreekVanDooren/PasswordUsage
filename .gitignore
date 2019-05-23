@@ -1,0 +1,5 @@
+usage.statistics.xml
+tasks.xml
+workspace.xml
+*.log
+password-usage-checker
