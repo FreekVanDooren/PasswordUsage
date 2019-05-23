@@ -4,7 +4,7 @@ Based on [this video](https://www.youtube.com/watch?v=hhUb5iknVJs) and [this tut
 ## Summary
 Application checks if a password has been 'pwnd' either on command line or via HTTP endpoint. 
 
-##Tools used
+## Tools used
 | Tool | Version |
 | ---- | ------- |
 | Go | go1.12.1 |
