@@ -29,6 +29,3 @@ _NB_
 $ curl localhost:6544/password-checker/<password>
 ```
 Where `<password>` is to be replaced with desired.
-## To Do
-- Get to the end of the tutorial
-- Split up cli from core functionality (Introduce types)
